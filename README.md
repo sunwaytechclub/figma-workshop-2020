@@ -81,7 +81,7 @@ Firstly, create a new draft:
 
 ![create draft](./Tutorial/create_draft.jpg)
 
-Click the plus button on your sidebar.
+Click the `plus button` on your sidebar.
 
 You should see this page
 
@@ -121,7 +121,7 @@ In order to do this, we can use the **frame** tool.
 
 ![navbar_left](./Tutorial/navbar_left.jpg)
 
-Click the # button (third one from the left)
+Click the `# button` (third one from the left)
 
 ![Frame types](./Tutorial/frame.jpg)
 
@@ -143,7 +143,7 @@ Let's start by creating a simple button
 
 ![navbar_left](./Tutorial/navbar_left.jpg)
 
-Same flow, this time we choose the fourth button (rectangle, r for hotkey)
+Same flow, this time we choose the `fourth button` (rectangle, `r for hotkey`)
 
 Click and drag in your iPhone frame!
 
@@ -167,13 +167,13 @@ Well, the reason is simple, by using frame, it gives you extra functionality [li
 
 ### Properties
 
-Now let's zoom in to look at a more detail view, you can do this by holding ctrl + scroll wheel (or ctrl and +)
+Now let's zoom in to look at a more detail view, you can do this by holding `ctrl + scroll wheel` (or `ctrl and +`)
 
-use Hand tool (hotkey H) to pan around, or press the scroll wheel works too.
+use Hand tool (`hotkey H`) to pan around, or `press the scroll wheel` works too.
 
 let's start by creating a simple button!
 
-1. Type T for text (or the sixth button on the top left navbar), place it on top of the button like this
+1. Type `T for text` (or the sixth button on the top left navbar), place it on top of the button like this
 
 ![button_text](./Tutorial/button_text.jpg)
 
@@ -318,17 +318,17 @@ We had learned how to create a button, adjust properties and apply cool effects,
 
 You may realized if you want to move the button, it is tedious to highlight everything and move...
 
-Fret not! Just highlight them and press ctrl + g (or right click and choose "group")!
+Fret not! Just highlight them and press `ctrl + g` (or right click and choose "group")!
 
 Now, we are able to move them around like a boss 😎
 
-Let's move it to the middle of the iPhone, simply drag it to the middle, Figma has a built-in alignment feature to let you clip it to the middle (do zoom out, ctrl + scroll wheel if you find it's too zoom in)
+Let's move it to the middle of the iPhone, simply drag it to the middle, Figma has a built-in alignment feature to let you clip it to the middle (do zoom out, `ctrl + scroll wheel` if you find it's too zoom in)
 
 ![alignment](./Tutorial/alignment.PNG)
 
 Let's rename our button to a better name rather than just `group - 1`!
 
-You can do this by clicking the button, and press ctrl + r (or go to the button element on your left panel, right click to find "rename")
+You can do this by clicking the button, and press `ctrl + r` (or go to the button element on your left panel, right click to find "rename")
 
 ![rename](./Tutorial/rename.jpg)
 
