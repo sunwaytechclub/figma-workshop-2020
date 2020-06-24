@@ -121,7 +121,7 @@ Click the # button (third one from the left)
 
 ![Frame types](./Tutorial/frame.jpg)
 
-You can see there are different type of frames that you can use! (You can even use figma to design for your social media post!)
+On your right panel, you can see there are different type of frames that you can use! (You can even use figma to design for your social media post!)
 
 We will choose **iPhone 8** frame for now, click the Phone accordion and click iPhone 8.
 
@@ -130,5 +130,201 @@ We will choose **iPhone 8** frame for now, click the Phone accordion and click i
 Now, you have successfully created a frame! Congrats 🎉! Take a coffee break!
 
 If I still have your attention, we can continue to the next step!
+
+---
+
+Let's start by creating a simple button
+
+![navbar_left](./Tutorial/navbar_left.jpg)
+
+Same flow, this time we choose the fourth button (rectangle, r for hotkey)
+
+Click and drag in your iPhone frame!
+
+![rectangle](./Tutorial/rectangle.jpg)
+
+You should ensure that the rectangle is inside the iPhone, to verify, check the tree structure on your left panel
+
+![tree](./Tutorial/tree.jpg)
+
+It should be a child element of the iPhone frame.
+
+---
+
+### Frame
+
+You might be wondering, why do we need frame? We can just draw a rectangle with white background, and it should achieve the same look right?
+
+Well, the reason is simple, by using frame, it gives you extra functionality [like Layout Grids, Auto Layout, Constraints, and Prototyping](https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma)!
+
+---
+
+Now let's zoom in to look at a more detail view, you can do this by holding ctrl + scroll wheel (or ctrl and +)
+
+use Hand tool (hotkey H) to pan around, or press the scroll wheel works too.
+
+let's start by creating a simple button!
+
+1. Type T for text (or the sixth button on the top left navbar), place it on top of the button like this
+
+![button_text](./Tutorial/button_text.jpg)
+
+2. The background color of the button is not really good, let's change it to blue!
+
+Click the rectangle, and your right panel should look like this
+
+![button_fill](./Tutorial/button_fill.jpg)
+
+Click the fill section, change the hex color to `007bff`.
+
+Change the text color to `FFFFFF` too (remember to click the text)!
+
+![button_blue](./Tutorial/button_blue.jpg)
+
+Almost there!
+
+Our target is to make a button that looks like a button from [bootstrap](https://getbootstrap.com/docs/4.5/components/buttons/)
+
+![bootstrap_button](./Tutorial/bootstrap_button.jpg)
+
+We are still missing something... the border radius!
+
+Now, click the blue rectangle, on your right panel, you should see all the values that you can change
+
+![button_values](./Tutorial/button_values.jpg)
+
+We are looking for the border radius, you can change this by adjusting the value of the corner icon, let's change it to `5` (feel free to try out adjusting other values too)!
+
+![final_button](./Tutorial/final_button.jpg)
+
+We made it! 🎉
+The design does not look exactly the same, but I will left that as a challenge for you --- try to create other buttons as well!
+
+---
+
+To recap, what we had done so far:
+
+1. Create a button using the shape tool
+2. Change the button background and border radius
+3. Use the text tool
+
+What if we want to have a cool-looking design like this
+
+![glow button](./Tutorial/Glow-Button.jpg)
+
+> credit: https://uicookies.com/css-glow-effects/
+
+In order to do this, we need:
+
+1. Purple background (`#431462`)
+2. Button border color (`#CC0F3A`)
+3. Button background color (`#FF5E65` and `#F01286`)
+
+Let's make it!
+
+1. So firstly, let's change our iPhone background to purple!
+
+- Click the iPhone element on your left panel,
+you should see the border of the iPhone become blue (highlighted),
+- change the fill color into purple `#431462`!
+
+2. Create a button, use the rectangle tool and text tool
+
+- rectangle width: 139
+- rectangle height: 29
+- font size: 16
+
+3. this will be the output so far
+
+  ![step-1](./Tutorial/step-1.jpg)
+
+4. Let's change the styling of the rectangle
+
+  ![button_properties](./Tutorial/button_properties.jpg)
+
+- Click the + button for the stroke
+
+- change the fill to `CC0F3A`
+
+- You should now see the red border!
+
+5. change the border radius of the button to `13`
+6. Here comes the magic --- we need to use Linear effect on our rectangle background
+
+![linear-1](./Tutorial/linear-1.jpg)
+
+- Click on the square color icon, you should see a panel pop up
+
+![linear-2](./Tutorial/linear-2.jpg)
+
+- Click the `solid` dropdown button and choose `linear`
+
+Almost there! Don't give up! ☕ take a coffee break if you will!
+
+![linear-3](./Tutorial/linear-3.jpg)
+
+- Click and drag the white dot on top of your rectangle, drag it to the top left border of your rectangle.
+- Do the same for the bottom white dot, drag to bottom right.
+
+![linear-4](./Tutorial/linear-4.jpg)
+
+- To ensure you are selecting the correct one, click the top left square color icon of the button(just like the image shown above, it should be highlighted)
+
+- Change the color to `FF5E65`
+- Click the square color icon on the bottom right of the rectangle, change the color to `F01286`
+- Ensure the opacity is set to max
+
+![opacity](./Tutorial/opacity.jpg)
+
+Current progress
+
+![linear-5.jpg](./Tutorial/linear-5.jpg)
+
+- Change the text color to white, and font weight to medium (Roboto font)
+
+- Lastly, we need to apply to drop shadow effect!
+- Click on the rectangle again, on your right panel, scroll down and find for `effect`, click the + button again
+
+![linear-6.jpg](./Tutorial/linear-6.jpg)
+
+- You should see it applies the drop shadow effect by default, feel free to click the dropdown button and change to other! But for now we will want to achieve the similar effect from the image.
+
+- apply the below values
+
+![linear-7.jpg](./Tutorial/linear-7.jpg)
+
+- Result!
+
+![linear-result](./Tutorial/linear-result.jpg)
+
+🥳 Congrats, you reach another milestone! Are you ready to take the next challenge?
+
+There are a lot of other cool buttons [here](https://uicookies.com/css-glow-effects/), try to copy the design and practice! Google and us are your best friends when you encountered any problem, feel free to ask us!
+
+### Grouping, Layout
+
+We had learned how to create a button, adjust properties and apply cool effects, let's learn how we can group them to ease our work!
+
+You may realized if you want to move the button, it is tedious to highlight everything and move...
+
+Fret not! Just highlight them and press ctrl + g (or right click and choose "group")!
+
+Now, we are able to move them around like a boss 😎
+
+Let's move it to the middle of the iPhone, simply drag it to the middle, Figma has a built-in alignment feature to let you clip it to the middle (do zoom out, ctrl + scroll wheel if you find it's too zoom in)
+
+![alignment](./Tutorial/alignment.PNG)
+
+Let's rename our button to a better name rather than just `group - 1`!
+
+You can do this by clicking the button, and press ctrl + r (or go to the button element on your left panel, right click to find "rename")
+
+![rename](./Tutorial/rename.jpg)
+
+I will left the iPhone element for you to rename!
+
+psst: click the `Untitled` in the middle of the navbar to rename the draft too!
+
+🥳🥳🥳🥳🥳 That sums up our design part of this tutorial! Congrats!
 
 ---
