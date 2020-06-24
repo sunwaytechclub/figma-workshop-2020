@@ -339,3 +339,84 @@ psst: click the `Untitled` in the middle of the navbar to rename the draft too!
 🥳🥳🥳🥳🥳 That sums up our design part of this tutorial! Congrats!
 
 ---
+
+> “The secret of getting ahead is getting started.” – Mark Twain.
+
+## Prototyping
+
+We had just created our first iPhone page, and what if we want to have another page?
+
+Let's start by copy pasting the iPhone, click on the iPhone frame's name, copy and it paste
+
+You should see 2 iPhones now!
+
+![copy_paste](./Tutorial/copy_paste.jpg)
+
+We want to achieve:
+
+1. when the user click on the first page button, go to next page
+
+We will do it step by step:
+
+1. Change the text of button in the left iPhone to `click me to page 2`
+
+![edit-button-1](./Tutorial/edit-button-1.jpg)
+
+GG! The text is a bit off!
+
+We can fix this by either:
+
+1. Make the rectangle longer
+2. Apply auto-layout for the button group
+
+We will use second method!
+
+1. Roll back by pressing `ctrl + z`
+2. Select the button
+3. Click **Auto Layout** on your right panel
+
+![auto-layout](./Tutorial/auto-layout.jpg)
+
+And try edit the text again... magic!
+
+You can learn more about auto layout [here](https://www.figma.com/blog/announcing-auto-layout/) but essentially it's just applying `flex` property to the element.
+
+2. Change the text of button in the right iPhone to `click me to go back` (remember to apply auto layout too!)
+
+3. Adjust both buttons to ensure it's in the middle of the iPhones
+
+4. We have everything setup!
+5. On your right panel, click on the `Prototype` tab
+
+![prototype](./Tutorial/prototype.jpg)
+
+6. Now try to hover over you button of your left iPhone
+
+![prototype_hover](./Tutorial/prototype_hover.PNG)
+
+> "Everything starts from a dot." -- Wassily Kandinsky
+
+7. Click and drag the white dot on the right of your button, point it to the right iPhone
+
+![click_drag](./Tutorial/click_drag.PNG)
+
+8. Do the same for the right iPhone button: hover, click and drag, pointing to the left iPhone
+
+9. Remember the present button?
+
+![navbar_right](./Tutorial/navbar_right.jpg)
+
+Click it! Have fun with the buttons 🤔
+
+Go back to the draft, click the button again
+
+You can set an animation for the navigation!
+
+![animation](./Tutorial/animation.jpg)
+
+By default it has no animation
+
+☕🎉 You completed another module!
+
+---
+
