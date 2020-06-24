@@ -5,6 +5,8 @@
 
 <h3 align="center">Sunway Tech Club Figma Workshop</h3>
 
+Get the slides [here](./slides.html) or check it out online [here](https://slides.com/sunwaytechclub/deck-f34b86)!
+
 ## Table of Contents 📝
 
 - [About](#about)
