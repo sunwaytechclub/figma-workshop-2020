@@ -73,6 +73,8 @@ In summary, Figma focuses on these 5 features as of 2020:
 
 ----
 
+## Figma UI
+
 In this tutorial, we will focus on design and prototyping, feel free to explore other features!
 
 Firstly, create a new draft:
@@ -109,6 +111,8 @@ On your right side of the navbar
 
 ---
 
+## Design
+
 Let's start focusing on the first and the most important feature for Figma --- Design!
 
 Before we design an interface, we will need to set the screen size, is it a design for desktop? Mobile phone? Or tablet?
@@ -132,6 +136,8 @@ Now, you have successfully created a frame! Congrats 🎉! Take a coffee break!
 If I still have your attention, we can continue to the next step!
 
 ---
+
+### A simple button
 
 Let's start by creating a simple button
 
@@ -159,6 +165,8 @@ Well, the reason is simple, by using frame, it gives you extra functionality [li
 
 ---
 
+### Properties
+
 Now let's zoom in to look at a more detail view, you can do this by holding ctrl + scroll wheel (or ctrl and +)
 
 use Hand tool (hotkey H) to pan around, or press the scroll wheel works too.
@@ -183,7 +191,7 @@ Change the text color to `FFFFFF` too (remember to click the text)!
 
 Almost there!
 
-Our target is to make a button that looks like a button from [bootstrap](https://getbootstrap.com/docs/4.5/components/buttons/)
+3. Our target is to make a button that looks like a button from [bootstrap](https://getbootstrap.com/docs/4.5/components/buttons/)
 
 ![bootstrap_button](./Tutorial/bootstrap_button.jpg)
 
@@ -197,10 +205,13 @@ We are looking for the border radius, you can change this by adjusting the value
 
 ![final_button](./Tutorial/final_button.jpg)
 
-We made it! 🎉
+4. We made it! 🎉
+
 The design does not look exactly the same, but I will left that as a challenge for you --- try to create other buttons as well!
 
 ---
+
+### A Fancy Button
 
 To recap, what we had done so far:
 
