@@ -54,7 +54,7 @@ On your left, this is where you can navigate between the sections.
 
 ![Import Create](./Getting_Started/import_create.jpg)
 
-Click Drafts / Recent, on your top right border, you should be able to see this, when you hover on you, you should see "Import" and "Create" tooltips
+Click Drafts / Recent, on your top right border, you should be able to see this, when you hover on it, you should see "Import" and "Create" tooltips
 
 - Import: You can import figma file here, remember this! We will use this later!
 - Create: You can create a new draft using this button!
