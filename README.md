@@ -63,4 +63,72 @@ Now you have everything ready! Let's get started 🎉
 
 ## Tutorial 🎈 <a name="tutorial"></a>
 
-A step by step tutorial on how to use figma
+In summary, Figma focuses on these 5 features as of 2020:
+
+1. Design - Draw your UI!
+2. Prototyping - Make navigation!
+3. Collaboration - Google-docs-style editing with your friends!
+4. Design Systems - Manage all the assets you created
+5. Plugin - Power-up with external functionality!
+
+----
+
+In this tutorial, we will focus on design and prototyping, feel free to explore other features!
+
+Firstly, create a new draft:
+
+![create draft](./Tutorial/create_draft.jpg)
+
+Click the plus button on your sidebar.
+
+You should see this page
+
+![draft_ui](./Tutorial/draft_ui.jpg)
+
+On your left side of the navbar
+
+![navbar_left](./Tutorial/navbar_left.jpg)
+
+- File - Open file, edit settings here
+- Move tools - Switch between move mode and scale mode
+- Frame - Create new frame (desktop, mobile, custom...)
+- Shape - Create new shape
+- Pen - Create custom shape
+- Text - Create text
+- Hand tool - A tool for you to pan around
+- Comment - Add comment for communication
+
+On your right side of the navbar
+
+![navbar_right](./Tutorial/navbar_right.jpg)
+
+- Avatar - you!
+- Share - Click this to share this figma draft to your friends!
+- Present - To present your prototype
+- Zoom
+
+---
+
+Let's start focusing on the first and the most important feature for Figma --- Design!
+
+Before we design an interface, we will need to set the screen size, is it a design for desktop? Mobile phone? Or tablet?
+
+In order to do this, we can use the **frame** tool.
+
+![navbar_left](./Tutorial/navbar_left.jpg)
+
+Click the # button (third one from the left)
+
+![Frame types](./Tutorial/frame.jpg)
+
+You can see there are different type of frames that you can use! (You can even use figma to design for your social media post!)
+
+We will choose **iPhone 8** frame for now, click the Phone accordion and click iPhone 8.
+
+![iphone_8](./Tutorial/iphone_8.jpg)
+
+Now, you have successfully created a frame! Congrats 🎉! Take a coffee break!
+
+If I still have your attention, we can continue to the next step!
+
+---
