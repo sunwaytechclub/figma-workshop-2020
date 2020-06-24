@@ -420,3 +420,73 @@ By default it has no animation
 
 ---
 
+## Collaboration
+
+To collaborate, it's very simple!
+
+You have 2 ways:
+
+1. Send link
+2. Send email invite
+
+### Link
+
+Click on the `share` button on the right side of your navbar!
+
+You should see a pop-up modal!
+
+Click on the `Copy link` button, and share it to any of your friend (or you can send to us if you don't have any...☹)
+
+Remember to set the permission to `can edit`!
+
+![share](./Tutorial/share.jpg)
+
+### Email invite
+
+Simply enter the email and click send invite!
+
+---
+
+## Design system
+
+Sometimes, it's a bit tedious to copy and paste the button all over again, what if we can have a simpler way to do?
+
+You can achieve this by converting the button into a component!
+
+(Remember to switch to `design` tab on your right panel)
+
+Click the button on your left iPhone, and right click, select the `Create Component`
+
+![component](./Tutorial/component.jpg)
+
+Click on the `Assets` tab on your left panel, you should be able to see the button here too!
+
+![asset](./Tutorial/button_component.jpg)
+
+Click and drag it to anywhere!
+
+> Components are reusable elements in your design. A header, footer or even a button can be a component. As you reuse a Master component multiple times, any structural change to it in the future will affect all other instances. Components are extremely flexible in Figma.
+[https://designcode.io/figma-components-and-nesting](https://designcode.io/figma-components-and-nesting)
+
+Now if you change the text on your left, you will see the changes is reflected to your another button too!
+
+If you do not want it to reflect, you can right click the copied button, select `Detach Instance`
+
+![detach_instance](./Tutorial/detach_instance.jpg)
+
+This feature is extremely useful for repeated component, like navbar, footer, etc!
+
+---
+
+## Conclusion
+
+There are yet more features and functionality to explore in Figma, for example, you can import this plugin [HTML to Figma](https://www.figma.com/community/plugin/747985167520967365/HTML-To-Figma) to convert any website into Figma draft!
+
+If you have any question or problem regarding this tutorial, feel free to open an issue [here](https://github.com/sunwaytechclub/figma-workshop-2020/issues)!
+
+Do follow and join us on social media for future events!
+
+[Facebook](https://facebook.com/sunwaytechclub)
+[Instagram](https://instagram.com/sunwaytechclub)
+[LinkedIn](https://linkedin.com/sunwaytechclub)
+[Telegram](https://sunwaytechclub.org/telegram)
